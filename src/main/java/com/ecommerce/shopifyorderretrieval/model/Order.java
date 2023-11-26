@@ -17,11 +17,4 @@ public class Order {
 
     @JsonProperty("customer")
     private Customer customer;
-
-    private String dispatchDate;
-    private String currentStatus;
-    private String deliveryStatus;
-    private double orderAmount;
-    private int orderQuantity;
-    private String orderType;
 }
