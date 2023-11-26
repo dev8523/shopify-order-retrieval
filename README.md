@@ -49,7 +49,16 @@ conditions, and generate an Excel sheet with the fetched data.
     GET http://localhost:8080/orders/generateExcel?filter={your-filter-condition}
     ```
 
-   Replace `{your-filter-condition}` with your desired filter condition.
+   Replace `{your-filter-condition}` with your desired filter condition:
+
+    - `Today`
+    - `Yesterday`
+    - `Last 7 days`
+    - `This Week`
+    - `This Month`
+    - `Last 30 days`
+    - `Last Month`
+    - `Custom Date`
 
 2. The application will make a REST call to Shopify, retrieve orders, and generate an Excel sheet.
 
