@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "shopify.api")
 public class ShopifyApiConfig {
-    private String url;
+    private String baseUrl;
     private String apiKey;
     private String apiSecret;
     private String accessToken;
